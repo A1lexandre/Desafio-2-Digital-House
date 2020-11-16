@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Desafio2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DefaultInputLayout">
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="boxBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="DefaultInputEdit">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/accent_color</item>
+        <item name="fontFamily">Roboto</item>
+    </style>
+
+    <style name="DefaultButton">
+        <item name="android:layout_height">70dp</item>
+        <item name="backgroundTint">@color/dark_pink</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+    </style>
+
+    <style name="RegisterButton" parent="DefaultButton">
+        <item name="backgroundTint">@color/dark_gray</item>
+    </style>
+
+    <style name="defaultCardView">
+        <item name="android:layout_margin">8dp</item>
+        <item name="cardCornerRadius">10dp</item>
+    </style>
+
+    <style name="SupportTextDefault">
+        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
+        <item name="android:textColor">@color/support_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="DefaultCardTitle">
+        <item name="android:textAppearance">?attr/textAppearanceHeadline6</item>
+        <item name="android:textColor">@color/card_title</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <style name="mainCourseTitle" >
+        <item name="android:textColor">@color/dark_gray2</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="MainCourseCardView">
+        <item name="android:layout_margin">5dp</item>
+        <item name="cardCornerRadius">10dp</item>
+    </style>
+
+    <style name="DefaultName">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginStart">24dp</item>
+    </style>
+
+    <style name="mainCourseDescription">
+        <item name="android:textColor">@color/dark_gray</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+</resources>
